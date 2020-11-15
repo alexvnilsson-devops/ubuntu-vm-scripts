@@ -22,6 +22,8 @@ if [[ $ALEXVNILSSON_API_SERVICES_PRODUCTION = 1 ]]; then
         echo -e "\e[31mThis script must be run with elevated permissions (sudo/root).\e[39m"
         exit 1
     fi
+else
+    echo "Running in testing mode..."
 fi
 
 bash "${STARTUP_INSTANCE_SCRIPTS_ROOT}/init/nginx.sh"
