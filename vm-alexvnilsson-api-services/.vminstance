@@ -1,1 +1,4 @@
-vm-alexvnilsson-api-services
+INSTANCE_NAME=vm-alexvnilsson-api-services
+
+NGINX_CONF_FILENAME=api.alexvnilsson.se
+NGINX_CONF_SERVER_NAME=api.alexvnilsson.se
